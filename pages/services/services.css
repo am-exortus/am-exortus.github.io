@@ -121,8 +121,7 @@
   @media screen and (max-width: 768px) {
 
     .col-4{
-      max-width: 100%;
-      flex: 100%;
+      width: 100%;
       top: 0.5vh;
       align-items: center;
       justify-content: center;

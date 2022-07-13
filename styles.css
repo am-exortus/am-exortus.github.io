@@ -141,11 +141,11 @@ body {
 }
 
 .footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
-  padding: 1vw;
+  padding: 5vw;
   color: #ffffff;
   font-family: Palatino;
   text-align: center;
@@ -156,10 +156,12 @@ body {
 
 .footer h1{
   font-size: 2.5vw;
+  float: left;
 }
 
 .footer p{
   font-size: 1.5vw;
+  left: 0;
 }
 
 .hide {

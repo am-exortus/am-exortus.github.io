@@ -112,9 +112,9 @@ body {
 
 .maincontent {
   position: relative;
-  background: url(images/salvia_3.png) center no-repeat;
-  background-size: cover;
-  height: 100vh;
+  /*background: url(images/salvia_3.png) center no-repeat;
+  background-size: cover;*/
+  height: 100%;
   width: 100%;
 }
 
@@ -167,6 +167,13 @@ body {
 .hide {
   display: none;
 
+}
+
+#myVideo {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 @media screen and (max-height: 450px) {
